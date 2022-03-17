@@ -1,0 +1,157 @@
+header {
+    background-color: white;
+    padding: 25px 0px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    @media @w576 {
+        padding: 10px 0;
+    }
+    nav {
+        .flex-with-all (wrap, center, center);
+        padding: 0 1rem;
+        position: relative;  
+        .navbar-brand {
+            margin-right: auto;
+            img {
+                max-height: 40px;
+                @media @w576 {
+                    max-height: 60px;
+                }
+            }
+        }
+        .navbar-expand {
+            display: flex;
+            align-items: center;
+            ul {
+                display: none;
+                @media @w992 {
+                    display: -ms-flexbox;
+                    display: flex;
+                    -ms-flex-direction: row;
+                    flex-direction: row;
+                    padding-left: 0;
+                    margin-bottom: 0;
+                    list-style: none;
+                }
+                li {
+                    font-size: 18px;
+                    line-height: 1.2;
+                    .letter-spacing(25);
+                    padding: 4.5px;
+                    a {
+                        color: black;
+                        display: inline-block;
+                        padding: 9.5px 13.5px;
+                        text-decoration: none;
+                        &.red {
+                            color: @color-red;
+                        }
+                        .transition(.3s);
+                        &:hover,
+                        &.nuxt-link-exact-active {
+                            color: @color-orange;
+                        }
+                        @media @w-layout-max {
+                            padding: 9.5px 25px;
+                        }
+                    }
+                }
+            }
+        }  
+        .my-navbar-toggler {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            margin-left: auto;
+            padding: 10px;
+            @media @w992 {
+                display: none;
+            }
+        }
+        .navbar-collapse {
+            background-color: @color-blue;
+            position: fixed;
+            right: -100%;
+            top: 0;
+            height: 100vh;
+            max-width: 300px;
+            .transition(.3s);
+            padding: 40px 30px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            -webkit-overflow-scrolling: touch;
+            @media @w576 {        
+                max-width: initial;
+            }
+            a {
+                text-decoration: none;
+            }
+            .control-row {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 30px;  
+                @media (max-width: 329.98px) {
+                    margin-bottom: 20px;  
+                }
+                .close-drop {
+                    cursor: pointer;
+                }
+            }
+            ul:not(.sub) {
+                list-style: none;
+                padding-left: 15px;
+                padding-right: 15px;
+                @media @w768 {
+                    padding-left: 25px;
+                    padding-right: 25px;        
+                }
+                li+li {
+                    margin-top: 10px;
+                }
+                li a {
+                    line-height: 1.41;
+                    text-transform: uppercase;
+                    &.red {
+                        color: @color-red;
+                    }
+                }
+            }
+            ul.sub {
+                list-style: none;
+                margin-top: 10px;
+                padding-left: 15px;
+                padding-right: 15px;  
+                li+li {
+                    margin: 0 !important;
+                }
+                li a {
+                    color: white;
+                    font-weight: initial;
+                    line-height: 1.41;
+                    text-transform: none;
+                }
+            }
+        }
+        .navbar-collapse ul:not(.sub) li+li,
+        .navbar-collapse ul.sub {
+            @media (max-width: 329.98px) {
+                margin-top: 10px;
+            }
+            @media @w768 {      
+                margin-top: 25px; 
+            }
+        }
+    }
+}
+
+.sticky .navbar-brand img {
+    @media @w576 {
+        max-height: 50px;
+    }
+}
+  
+.is-show .navbar-collapse {
+    right: 0;
+}
