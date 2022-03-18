@@ -1,0 +1,19 @@
+.pro-box {
+    border: .5px solid black;
+    display: grid;
+    padding: 20px 15px;
+    &__ikon {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    &-row {
+        margin-top: 40px;
+        @media @w576-max {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .row {
+            border: .5px solid black;
+        }
+    }
+}

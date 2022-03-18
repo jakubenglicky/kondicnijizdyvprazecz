@@ -46,8 +46,8 @@ section {
 .header {
     background-color: rgba(0, 0, 0, .5);
     background-blend-mode: color;
-    background-image: url('/img/header.jpg');
     background-attachment: fixed;
+    background-image: url('/img/header.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,6 +62,25 @@ section {
     }
     h2 {
         margin-bottom: 0;
+    }
+}
+
+#procvicite {
+    position: relative;
+    &::after {
+        content: "";
+        background-attachment: fixed;
+        background-image: url(/img/pro.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: .2;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
     }
 }
 
