@@ -4,7 +4,7 @@
       <div class="container">
         <div class="u-center u-m-auto">
           <h1>KondičníjízdyvPraze.cz</h1>
-          <h2>Projeďte autoškolou v klidu a s úpsměvěm</h2>
+          <h2>Projeďte se autoškolou v klidu a s úsměvem</h2>
         </div>
       </div>
     </section>

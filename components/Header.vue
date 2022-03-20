@@ -2,7 +2,7 @@
     <header>
         <div class="container">
             <nav class="click-dropdown">
-                <NuxtLink to="/" class="navbar-brand"><img src="/img/logo.png" alt="Autoškola s úaměvěm"></NuxtLink>
+                <NuxtLink to="/" class="navbar-brand"><img src="/img/logo.png" alt="Kondiční jízdy v Praze"></NuxtLink>
                 
                 <button class="my-navbar-toggler open-drop" type="button" aria-label="Menu">
                 <svg class="icon" width="21" height="21"><use xlink:href="#hamburger"></use></svg>
@@ -31,8 +31,8 @@
                 link: '#o-nas'
             },
             {
-                name: 'Cenník',
-                link: '#cennik'
+                name: 'Ceník',
+                link: '#cenik'
             },
             {
                 name: 'Rezervace',
