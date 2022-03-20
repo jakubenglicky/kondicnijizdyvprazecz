@@ -54,6 +54,8 @@
             </div>
           </div>
         </div>
+        <p data-aos="fade-up" data-aos-delay="200">Pokud si tedy chcete objednat kondiční jízdy u nás, neváhejte nás kontaktovat, nebo rovnou využijte naši
+online přihlášku.</p>
       </div>
     </section>
 
