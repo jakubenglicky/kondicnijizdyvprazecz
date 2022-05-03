@@ -1,17 +1,16 @@
 header {
     background-color: white;
-    padding: 25px 0px;
+    padding: 10px 0px;
     position: sticky;
     top: 0;
     width: 100%;
     z-index: 100;
-    @media @w576 {
-        padding: 10px 0;
-    }
     nav {
         .flex-with-all (wrap, center, center);
-        padding: 0 1rem;
         position: relative;  
+        @media @w768 {
+            padding: 0 1rem;            
+        }
         .navbar-brand {
             margin-right: auto;
             img {
@@ -24,16 +23,32 @@ header {
         .navbar-expand {
             display: flex;
             align-items: center;
+            @media @w992-max {
+                position: fixed;
+                padding-top: 70px;
+                top: 0;
+                background-color: white;
+                align-items: initial;
+                right: -100%;
+                height: 100%;
+                transition: .4s;
+                //z-index: -1;
+                &.open {
+                    right: 0;
+                }
+            }
             ul {
-                display: none;
+                display: initial;
+                list-style: none;
+                padding-right: 30px;
                 @media @w992 {
                     display: -ms-flexbox;
                     display: flex;
                     -ms-flex-direction: row;
                     flex-direction: row;
                     padding-left: 0;
+                    padding-right: 0;
                     margin-bottom: 0;
-                    list-style: none;
                 }
                 li {
                     font-size: 18px;
@@ -66,8 +81,18 @@ header {
             cursor: pointer;
             margin-left: auto;
             padding: 10px;
+            position: relative;
+            z-index: 2;
             @media @w992 {
                 display: none;
+            }
+            div {
+                background-color: black;
+                width: 22px;
+                height: 2px;
+            }
+            div + div {
+                margin-top: 6px;
             }
         }
         .navbar-collapse {

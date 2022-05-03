@@ -4,13 +4,15 @@
             <nav class="click-dropdown">
                 <NuxtLink to="/" class="navbar-brand"><img src="/img/logo.png" alt="Kondiční jízdy v Praze"></NuxtLink>
                 
-                <button class="my-navbar-toggler open-drop" type="button" aria-label="Menu">
-                <svg class="icon" width="21" height="21"><use xlink:href="#hamburger"></use></svg>
+                <button class="my-navbar-toggler toggler-menu open-drop" @click="open = !open" type="button" aria-label="Menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </button>
                 
-                <div class="click-dropdown-content navbar-expand">
+                <div class="click-dropdown-content navbar-expand" :class="[open? 'open' : '']">
                     <ul>                        
-                        <li v-for="hamItem in menu" :key="hamItem.name"> 
+                        <li v-for="hamItem in menu" :key="hamItem.name" @click="open = false"> 
                             <NuxtLink :to="hamItem.link" class=" close-drop">{{ hamItem.name }}</NuxtLink>
                         </li>
                     </ul>
@@ -43,6 +45,7 @@
                 link: '#kontakt'
             }
         ],
+        open: false
       }
     },
   }

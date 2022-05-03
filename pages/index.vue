@@ -1,8 +1,8 @@
 <template>
   <main>
     <section class="header">
-      <div class="container">
-        <div class="u-center u-m-auto">
+      <div class="container u-xs-smaller">
+        <div class="u-center u-m-auto u-xs-smaller">
           <h1>KondičníjízdyvPraze.cz</h1>
           <h2>Projeďte se autoškolou v klidu a s úsměvem</h2>
         </div>
@@ -13,8 +13,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 u-m-auto u-center">
-            <h2 data-aos="fade-roght" data-aos-delay="200">O nás</h2>
-            <p data-aos="fade-up" data-aos-delay="200">Na úvod se pokusíme společně zjistit, proč je řidičský průkaz schován v&nbsp;šuplíku.<br><br>
+            <h2 data-aos="fade-roght" data-aos-delay="100">O nás</h2>
+            <p data-aos="fade-up" data-aos-delay="100">Na úvod se pokusíme společně zjistit, proč je řidičský průkaz schován v&nbsp;šuplíku.<br><br>
                 Ne nadarmo se říká, že vše začíná v&nbsp;hlavě …proto klademe velký důraz na získání důvěry a
                 chuti začít opět řídit.<br><br>
                 S&nbsp;více jak 20 letou zkušeností Autoškoly si troufám říct, že se nám to vždy podaří.</p>
