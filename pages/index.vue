@@ -78,5 +78,38 @@ online přihlášku.</p>
       </div>
     </section>
 
+    <section id="cenik">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 u-m-auto u-center">
+            <h2 data-aos="fade-roght" data-aos-delay="200">Cena kondiční jízdy</h2>
+            <div  data-aos="fade-up" data-aos-delay="200">
+              <p>1 hodina = <b>500 Kč</b>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 u-m-auto u-center">
+            <h2 data-aos="fade-roght" data-aos-delay="200">Kontakt</h2>
+            <div  data-aos="fade-up" data-aos-delay="200">
+              <p>Kondiční jízdy zajišťuje:</p>
+              <ul>
+                <li>Autoškola Ševčík</li>
+                <li>Strojírenská 18/47</li>
+                <li>Praha 5</li>
+                <li>Tel: <a href="tel:602792769">602 792 769</a></li>
+                <li>E-Mail: <a href="mailto:radsev@seznam.cz">radsev@seznam.cz</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 </template>
