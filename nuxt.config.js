@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Autoškola s úsměvem',
+    title: 'Kondiční jízdy v Praze | Projeďte se autoškolou v klidu a s úsměvem',
     htmlAttrs: {
       lang: 'cs'
     },
