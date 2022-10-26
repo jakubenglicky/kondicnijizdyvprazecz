@@ -5,6 +5,7 @@
         <div class="u-center u-m-auto u-xs-smaller">
           <h1>KondičníjízdyvPraze.cz</h1>
           <h2>Projeďte se autoškolou v klidu a s úsměvem</h2>
+          <a href="tel:+420602792769" class="button">Rezervace 602&nbsp;792&nbsp;769</a>
         </div>
       </div>
     </section>
@@ -63,7 +64,7 @@ online přihlášku.</p>
       <div class="container">
         <div class="row">
           <div class="col-md-8 u-m-auto u-center">
-            <h2 data-aos="fade-roght" data-aos-delay="200">Pro koho jsou kondiční jízdy vhodné</h2>
+            <h2 data-aos="fade-right" data-aos-delay="200">Pro koho jsou kondiční jízdy vhodné</h2>
             <div  data-aos="fade-up" data-aos-delay="200">
               <ul>
                 <li>Pro zájemce, kteří neřídí pravidelně, ale chtějí si uchovat řidičské dovednosti.</li>
@@ -82,7 +83,7 @@ online přihlášku.</p>
       <div class="container">
         <div class="row">
           <div class="col-md-8 u-m-auto u-center">
-            <h2 data-aos="fade-roght" data-aos-delay="200">Cena kondiční jízdy</h2>
+            <h2 data-aos="fade-right" data-aos-delay="200">Cena kondiční jízdy</h2>
             <div  data-aos="fade-up" data-aos-delay="200">
               <p>1 hodina = <b>500 Kč</b>.</p>
             </div>
@@ -95,7 +96,7 @@ online přihlášku.</p>
       <div class="container">
         <div class="row">
           <div class="col-md-8 u-m-auto u-center">
-            <h2 data-aos="fade-roght" data-aos-delay="200">Kontakt</h2>
+            <h2 data-aos="fade-right" data-aos-delay="200">Kontakt</h2>
             <div  data-aos="fade-up" data-aos-delay="200">
               <p>Kondiční jízdy zajišťuje:</p>
               <ul>
