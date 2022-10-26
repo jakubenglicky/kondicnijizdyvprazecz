@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Autoškola s úsměvem',
+    title: 'Kondiční jízdy v Praze | Projeďte se autoškolou v klidu a s úsměvem',
     htmlAttrs: {
       lang: 'cs'
     },
@@ -15,7 +15,7 @@ export default {
       { rel: "preconnect", href: "https://fonts.googleapis.com"},
       { rel: "preconnect", href:"https://fonts.gstatic.com"},
       { href: "https://fonts.googleapis.com/css2?family=Hubballi&family=Mukta&display=swap", rel: "stylesheet"},
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/img/favicon.png' }
     ]
   },
 

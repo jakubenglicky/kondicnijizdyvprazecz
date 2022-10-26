@@ -5,6 +5,7 @@
         <div class="u-center u-m-auto u-xs-smaller">
           <h1>KondičníjízdyvPraze.cz</h1>
           <h2>Projeďte se autoškolou v klidu a s úsměvem</h2>
+          <a href="tel:+420602792769" class="button">Rezervace 602&nbsp;792&nbsp;769</a>
         </div>
       </div>
     </section>
@@ -63,7 +64,7 @@ online přihlášku.</p>
       <div class="container">
         <div class="row">
           <div class="col-md-8 u-m-auto u-center">
-            <h2 data-aos="fade-roght" data-aos-delay="200">Pro koho jsou kondiční jízdy vhodné</h2>
+            <h2 data-aos="fade-right" data-aos-delay="200">Pro koho jsou kondiční jízdy vhodné</h2>
             <div  data-aos="fade-up" data-aos-delay="200">
               <ul>
                 <li>Pro zájemce, kteří neřídí pravidelně, ale chtějí si uchovat řidičské dovednosti.</li>
@@ -72,6 +73,39 @@ online přihlášku.</p>
                 <li>Prostě pro všechny, kteří chtějí získat více jistoty v řízení svého vozidla.</li>
               </ul>
               <p>Jízdy provádíme individuálně po domluvě se zájemcem, v rozsahu odpovídajícím jeho schopnostem. Maximální počet kondičních jízd není stanoven.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cenik">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 u-m-auto u-center">
+            <h2 data-aos="fade-right" data-aos-delay="200">Cena kondiční jízdy</h2>
+            <div  data-aos="fade-up" data-aos-delay="200">
+              <p>1 hodina = <b>500 Kč</b>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 u-m-auto u-center">
+            <h2 data-aos="fade-right" data-aos-delay="200">Kontakt</h2>
+            <div  data-aos="fade-up" data-aos-delay="200">
+              <p>Kondiční jízdy zajišťuje:</p>
+              <ul>
+                <li>Autoškola Ševčík</li>
+                <li>Strojírenská 18/47</li>
+                <li>Praha 5</li>
+                <li>Tel: <a href="tel:602792769">602 792 769</a></li>
+                <li>E-Mail: <a href="mailto:radsev@seznam.cz">radsev@seznam.cz</a></li>
+              </ul>
             </div>
           </div>
         </div>
